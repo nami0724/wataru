@@ -1,3 +1,36 @@
-h1{
+header {
+    background-color: black;
+    color: white;
+    width:100%;
+}
+.clickHere {
+    background-color: blueviolet;
+    position:fixed;
+    right: 10vw;
+    bottom:5vh;
+    font-size: 20px;
+}
+body {
+    width: 100%;
+}
+
+.contents {
+    text-align: center;
+    margin-top: 10vh;
+}
+h2 {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-size:32px;
+    background-color:grey;
+}  
+
+.theDay,.treatment,.pay,.reservation {
     color: red;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    height: 100px;
 }

@@ -2,21 +2,50 @@ header {
     background-color: black;
     color: white;
     width:100%;
-}
-.clickHere {
-    background-color: blueviolet;
     position:fixed;
-    right: 10vw;
-    bottom:5vh;
-    font-size: 20px;
+    margin-top: 0px;
 }
+h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.icons {
+    display: flex;
+    margin-bottom: 0;
+}
+.logo {
+    width:5vw;
+    height: 5vh;
+    display: flex;
+}
+.logo img {
+    margin-left:1vw;
+}
+.hamburger {
+    margin-left: 90vw;
+    margin-top: -2vh;
+    color:white;
+    font-weight: bold;
+    font-size: 3vw;
+}
+
+.clickHere {
+    background-color: cd5c5c;
+    position:fixed;
+    right: 8vw;
+    bottom:5vh;
+    font-size: 2vw;
+    font-weight:bold;
+    padding:10 20 5 20;
+    border-radius: 30px;
+}
+
 body {
     width: 100%;
 }
 
 .contents {
     text-align: center;
-    margin-top: 10vh;
+    padding-top: 12vh;
 }
 h2 {
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;

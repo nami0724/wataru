@@ -11,11 +11,17 @@
   <body>
     <header>
         <h1>お店の名前</h1>
-        ・場所
-        ・インスタ等
-
-        <nav>
-            <ol>
+        <div class="icons">
+        <div class="logo">
+            <img src="{{ asset("storage/map.png") }}" >
+            <img src="{{ asset("storage/insta.png") }}" >
+            <img src="{{ asset("storage/icon.png") }}" >
+            <img src="{{ asset("storage/book.png") }}" >
+            <img src="{{ asset("storage/sms.png") }}" >
+        </div>
+            
+        <nav class="hamburger">
+            <!-- <ol>
                 <ul><a href="#aboutShop">お店について</a></ul>
                 <ul><a href="#gallery">ギャラリー</a></ul>
                 <ul><a href="#menu">メニュー</a></ul>
@@ -23,8 +29,11 @@
                 <ul><a href="#voice">お客様の声</a></ul>
                 <ul><a href="#question">よくあるご質問</a></ul>
                 <ul><a href="#mail">お問い合わせ</a></ul>
-            </ol>
+            </ol> -->
+            <p>三</p>
         </nav>
+</div>
+        
     </header>
 
     <main>
@@ -33,7 +42,9 @@
         <h2 id=aboutShop>お店について</h2>
           <p>〇〇〇</p>
         <h2 id=gallery>ギャラリ－</h2>
-        <p>〇〇〇</p>
+        <img src="{{ asset("storage/tatoo.png") }}" >
+        <img src="{{ asset("storage/tatoo.png") }}" >
+        <img src="{{ asset("storage/tatoo.png") }}" >
         <h2 id=menu>メニュー</h2>
         <p>〇〇〇</p>
         <h2 id=price>料金</h2>
